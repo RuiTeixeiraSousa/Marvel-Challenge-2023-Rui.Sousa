@@ -16,6 +16,9 @@
 		F68284BD2970F35800A1F803 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284BC2970F35800A1F803 /* HomeViewController.swift */; };
 		F68284BF2970F36A00A1F803 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284BE2970F36A00A1F803 /* DetailsViewController.swift */; };
 		F68284C12970F37900A1F803 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C02970F37900A1F803 /* AboutViewController.swift */; };
+		F68284C32970F55200A1F803 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C22970F55200A1F803 /* MarvelAPI.swift */; };
+		F68284C52970F58B00A1F803 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C42970F58B00A1F803 /* CharacterService.swift */; };
+		F68284C82970F71000A1F803 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C72970F71000A1F803 /* CharacterData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		F68284BC2970F35800A1F803 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F68284BE2970F36A00A1F803 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		F68284C02970F37900A1F803 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F68284C22970F55200A1F803 /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
+		F68284C42970F58B00A1F803 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		F68284C72970F71000A1F803 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,6 @@
 				EB4211CD9043EF93C911E96D /* Pods-Marvel-Challenge-2023-Rui.Sousa.debug.xcconfig */,
 				D880ECA40DC38C7867F28AEE /* Pods-Marvel-Challenge-2023-Rui.Sousa.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +90,7 @@
 		F68284A22970ED2500A1F803 /* Marvel-Challenge-2023-Rui.Sousa */ = {
 			isa = PBXGroup;
 			children = (
+				F68284C62970F6EA00A1F803 /* Model */,
 				F68284BB2970F2EF00A1F803 /* ViewControllers */,
 				F68284BA2970F09B00A1F803 /* Storyboard */,
 				F68284B92970F08600A1F803 /* Services */,
@@ -115,6 +121,8 @@
 		F68284B92970F08600A1F803 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F68284C22970F55200A1F803 /* MarvelAPI.swift */,
+				F68284C42970F58B00A1F803 /* CharacterService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -136,6 +144,14 @@
 				F68284C02970F37900A1F803 /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F68284C62970F6EA00A1F803 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F68284C72970F71000A1F803 /* CharacterData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +271,10 @@
 			files = (
 				F68284A42970ED2500A1F803 /* AppDelegate.swift in Sources */,
 				F68284A62970ED2500A1F803 /* SceneDelegate.swift in Sources */,
+				F68284C52970F58B00A1F803 /* CharacterService.swift in Sources */,
 				F68284BD2970F35800A1F803 /* HomeViewController.swift in Sources */,
+				F68284C32970F55200A1F803 /* MarvelAPI.swift in Sources */,
+				F68284C82970F71000A1F803 /* CharacterData.swift in Sources */,
 				F68284C12970F37900A1F803 /* AboutViewController.swift in Sources */,
 				F68284BF2970F36A00A1F803 /* DetailsViewController.swift in Sources */,
 			);
