@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB9C25860461617A8879212 /* Pods_Marvel_Challenge_2023_Rui_Sousa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB648C460B9901B8F9E4DA /* Pods_Marvel_Challenge_2023_Rui_Sousa.framework */; };
 		F68284A42970ED2500A1F803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284A32970ED2500A1F803 /* AppDelegate.swift */; };
 		F68284A62970ED2500A1F803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284A52970ED2500A1F803 /* SceneDelegate.swift */; };
 		F68284AB2970ED2500A1F803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68284A92970ED2500A1F803 /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEBB648C460B9901B8F9E4DA /* Pods_Marvel_Challenge_2023_Rui_Sousa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel_Challenge_2023_Rui_Sousa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D880ECA40DC38C7867F28AEE /* Pods-Marvel-Challenge-2023-Rui.Sousa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel-Challenge-2023-Rui.Sousa.release.xcconfig"; path = "Target Support Files/Pods-Marvel-Challenge-2023-Rui.Sousa/Pods-Marvel-Challenge-2023-Rui.Sousa.release.xcconfig"; sourceTree = "<group>"; };
+		EB4211CD9043EF93C911E96D /* Pods-Marvel-Challenge-2023-Rui.Sousa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel-Challenge-2023-Rui.Sousa.debug.xcconfig"; path = "Target Support Files/Pods-Marvel-Challenge-2023-Rui.Sousa/Pods-Marvel-Challenge-2023-Rui.Sousa.debug.xcconfig"; sourceTree = "<group>"; };
 		F68284A02970ED2500A1F803 /* Marvel-Challenge-2023-Rui.Sousa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvel-Challenge-2023-Rui.Sousa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68284A32970ED2500A1F803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F68284A52970ED2500A1F803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB9C25860461617A8879212 /* Pods_Marvel_Challenge_2023_Rui_Sousa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3D58ADB2F0ACC882CFDE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB648C460B9901B8F9E4DA /* Pods_Marvel_Challenge_2023_Rui_Sousa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8402A00A37EFC8F199E2E5AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB4211CD9043EF93C911E96D /* Pods-Marvel-Challenge-2023-Rui.Sousa.debug.xcconfig */,
+				D880ECA40DC38C7867F28AEE /* Pods-Marvel-Challenge-2023-Rui.Sousa.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F68284972970ED2500A1F803 = {
 			isa = PBXGroup;
 			children = (
 				F68284A22970ED2500A1F803 /* Marvel-Challenge-2023-Rui.Sousa */,
 				F68284A12970ED2500A1F803 /* Products */,
+				8402A00A37EFC8F199E2E5AB /* Pods */,
+				1C3D58ADB2F0ACC882CFDE98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F68284B42970ED2600A1F803 /* Build configuration list for PBXNativeTarget "Marvel-Challenge-2023-Rui.Sousa" */;
 			buildPhases = (
+				E1EC3255050523F571E6A116 /* [CP] Check Pods Manifest.lock */,
 				F682849C2970ED2500A1F803 /* Sources */,
 				F682849D2970ED2500A1F803 /* Frameworks */,
 				F682849E2970ED2500A1F803 /* Resources */,
+				E5427A365CA22F863484B35B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +205,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1EC3255050523F571E6A116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marvel-Challenge-2023-Rui.Sousa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5427A365CA22F863484B35B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvel-Challenge-2023-Rui.Sousa/Pods-Marvel-Challenge-2023-Rui.Sousa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvel-Challenge-2023-Rui.Sousa/Pods-Marvel-Challenge-2023-Rui.Sousa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marvel-Challenge-2023-Rui.Sousa/Pods-Marvel-Challenge-2023-Rui.Sousa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F682849C2970ED2500A1F803 /* Sources */ = {
@@ -330,6 +399,7 @@
 		};
 		F68284B52970ED2600A1F803 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4211CD9043EF93C911E96D /* Pods-Marvel-Challenge-2023-Rui.Sousa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -359,6 +429,7 @@
 		};
 		F68284B62970ED2600A1F803 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D880ECA40DC38C7867F28AEE /* Pods-Marvel-Challenge-2023-Rui.Sousa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

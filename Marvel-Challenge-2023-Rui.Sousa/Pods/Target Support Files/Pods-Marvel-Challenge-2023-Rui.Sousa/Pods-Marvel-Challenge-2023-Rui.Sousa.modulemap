@@ -1,0 +1,6 @@
+framework module Pods_Marvel_Challenge_2023_Rui_Sousa {
+  umbrella header "Pods-Marvel-Challenge-2023-Rui.Sousa-umbrella.h"
+
+  export *
+  module * { export * }
+}
