@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tpu-3X-ZGL">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -11,7 +11,7 @@
         <!--Home View Controller-->
         <scene sceneID="FN6-Wq-KuA">
             <objects>
-                <viewController id="JOY-iP-lcm" customClass="HomeViewController" customModule="marve_app_ruisousa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JOY-iP-lcm" customClass="HomeViewController" customModule="Marvel_Challenge_2023_Rui_Sousa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="10Z-SQ-5h4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@
         <!--Details View Controller-->
         <scene sceneID="H9A-ns-5Y4">
             <objects>
-                <tableViewController id="GzX-mb-dey" customClass="DetailsViewController" customModule="marve_app_ruisousa" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="GzX-mb-dey" customClass="DetailsViewController" customModule="Marvel_Challenge_2023_Rui_Sousa" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wcS-WN-7CH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,7 +160,7 @@
         <!--About View Controller-->
         <scene sceneID="AFX-OQ-ljn">
             <objects>
-                <tableViewController id="cjA-UU-Q7U" customClass="AboutViewController" customModule="marve_app_ruisousa" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="cjA-UU-Q7U" customClass="AboutViewController" customModule="Marvel_Challenge_2023_Rui_Sousa" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="hFl-wO-tSS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
