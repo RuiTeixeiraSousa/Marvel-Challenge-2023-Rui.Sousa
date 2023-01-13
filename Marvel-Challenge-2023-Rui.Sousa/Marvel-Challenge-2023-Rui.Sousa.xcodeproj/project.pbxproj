@@ -19,6 +19,8 @@
 		F68284C32970F55200A1F803 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C22970F55200A1F803 /* MarvelAPI.swift */; };
 		F68284C52970F58B00A1F803 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C42970F58B00A1F803 /* CharacterService.swift */; };
 		F68284C82970F71000A1F803 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C72970F71000A1F803 /* CharacterData.swift */; };
+		F68284D12970F88600A1F803 /* MarvelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284CF2970F88600A1F803 /* MarvelTableViewCell.swift */; };
+		F68284D22970F88600A1F803 /* MarvelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68284D02970F88600A1F803 /* MarvelTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F68284C22970F55200A1F803 /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
 		F68284C42970F58B00A1F803 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		F68284C72970F71000A1F803 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		F68284CF2970F88600A1F803 /* MarvelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelTableViewCell.swift; sourceTree = "<group>"; };
+		F68284D02970F88600A1F803 /* MarvelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarvelTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		F68284B82970F07200A1F803 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F68284C92970F7DA00A1F803 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +157,39 @@
 				F68284C72970F71000A1F803 /* CharacterData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F68284C92970F7DA00A1F803 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F68284CC2970F83100A1F803 /* DetailScreen */,
+				F68284CB2970F81B00A1F803 /* AboutScreen */,
+				F68284CA2970F7F800A1F803 /* HomeScreen */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F68284CA2970F7F800A1F803 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F68284CF2970F88600A1F803 /* MarvelTableViewCell.swift */,
+				F68284D02970F88600A1F803 /* MarvelTableViewCell.xib */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		F68284CB2970F81B00A1F803 /* AboutScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AboutScreen;
+			sourceTree = "<group>";
+		};
+		F68284CC2970F83100A1F803 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +254,7 @@
 			files = (
 				F68284B02970ED2600A1F803 /* LaunchScreen.storyboard in Resources */,
 				F68284AD2970ED2600A1F803 /* Assets.xcassets in Resources */,
+				F68284D22970F88600A1F803 /* MarvelTableViewCell.xib in Resources */,
 				F68284AB2970ED2500A1F803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +314,7 @@
 				F68284BD2970F35800A1F803 /* HomeViewController.swift in Sources */,
 				F68284C32970F55200A1F803 /* MarvelAPI.swift in Sources */,
 				F68284C82970F71000A1F803 /* CharacterData.swift in Sources */,
+				F68284D12970F88600A1F803 /* MarvelTableViewCell.swift in Sources */,
 				F68284C12970F37900A1F803 /* AboutViewController.swift in Sources */,
 				F68284BF2970F36A00A1F803 /* DetailsViewController.swift in Sources */,
 			);
