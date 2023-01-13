@@ -12,6 +12,9 @@
 		F68284AB2970ED2500A1F803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68284A92970ED2500A1F803 /* Main.storyboard */; };
 		F68284AD2970ED2600A1F803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68284AC2970ED2600A1F803 /* Assets.xcassets */; };
 		F68284B02970ED2600A1F803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68284AE2970ED2600A1F803 /* LaunchScreen.storyboard */; };
+		F68284BD2970F35800A1F803 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284BC2970F35800A1F803 /* HomeViewController.swift */; };
+		F68284BF2970F36A00A1F803 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284BE2970F36A00A1F803 /* DetailsViewController.swift */; };
+		F68284C12970F37900A1F803 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68284C02970F37900A1F803 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F68284AC2970ED2600A1F803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68284AF2970ED2600A1F803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68284B12970ED2600A1F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68284BC2970F35800A1F803 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F68284BE2970F36A00A1F803 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F68284C02970F37900A1F803 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		F68284A22970ED2500A1F803 /* Marvel-Challenge-2023-Rui.Sousa */ = {
 			isa = PBXGroup;
 			children = (
+				F68284BB2970F2EF00A1F803 /* ViewControllers */,
 				F68284BA2970F09B00A1F803 /* Storyboard */,
 				F68284B92970F08600A1F803 /* Services */,
 				F68284B82970F07200A1F803 /* Views */,
@@ -94,6 +101,16 @@
 				F68284AE2970ED2600A1F803 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F68284BB2970F2EF00A1F803 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F68284BC2970F35800A1F803 /* HomeViewController.swift */,
+				F68284BE2970F36A00A1F803 /* DetailsViewController.swift */,
+				F68284C02970F37900A1F803 /* AboutViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +186,9 @@
 			files = (
 				F68284A42970ED2500A1F803 /* AppDelegate.swift in Sources */,
 				F68284A62970ED2500A1F803 /* SceneDelegate.swift in Sources */,
+				F68284BD2970F35800A1F803 /* HomeViewController.swift in Sources */,
+				F68284C12970F37900A1F803 /* AboutViewController.swift in Sources */,
+				F68284BF2970F36A00A1F803 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +338,8 @@
 				DEVELOPMENT_TEAM = G67JJSJZ84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Marvel-Challenge-2023-Rui.Sousa/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Marvel Api";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -345,6 +367,8 @@
 				DEVELOPMENT_TEAM = G67JJSJZ84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Marvel-Challenge-2023-Rui.Sousa/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Marvel Api";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
