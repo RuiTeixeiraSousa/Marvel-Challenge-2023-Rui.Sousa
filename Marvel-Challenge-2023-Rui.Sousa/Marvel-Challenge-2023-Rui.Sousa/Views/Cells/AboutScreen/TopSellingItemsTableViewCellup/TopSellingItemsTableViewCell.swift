@@ -1,12 +1,13 @@
 //
-//  ComicsTableViewCell.swift
+//  TopSellingItemsTableViewCell.swift
 //  Marvel-Challenge-2023-Rui.Sousa
 //
 //  Created by Rui Sousa on 13/01/2023.
 //
+
 import UIKit
 
-class ComicsTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
+class TopSellingItemsTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet weak var comicsCollectionView: UICollectionView!
     
@@ -16,14 +17,14 @@ class ComicsTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollecti
         
     }
     func registerCell() {
-        comicsCollectionView.register(UINib(nibName: "ComicsCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "comicsCollectionViewCell")
+        comicsCollectionView.register(UINib(nibName: "StoreCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "storeCollectionViewCell")
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "comicsCollectionViewCell", for: indexPath) as! ComicsCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "storeCollectionViewCell", for: indexPath) as! StoreCollectionViewCell
         return cell
     }
     

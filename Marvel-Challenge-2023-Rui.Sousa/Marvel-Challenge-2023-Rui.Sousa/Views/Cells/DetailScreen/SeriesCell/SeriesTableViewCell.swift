@@ -7,11 +7,17 @@
 
 import UIKit
 
-class SeriesTableViewCell: UICollectionViewCell {
+class SeriesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        img.clipsToBounds = true
+        img.layer.cornerRadius = 10
+        self.clipsToBounds = true
+        self.layer.cornerRadius = 10
     }
-
 }
+

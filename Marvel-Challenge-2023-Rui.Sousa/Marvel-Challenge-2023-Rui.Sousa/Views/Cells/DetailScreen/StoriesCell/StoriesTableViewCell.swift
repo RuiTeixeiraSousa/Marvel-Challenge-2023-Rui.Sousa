@@ -5,13 +5,20 @@
 //  Created by Rui Sousa on 13/01/2023.
 //
 
+
 import UIKit
 
-class StoriesTableViewCell: UICollectionViewCell {
-
+class StoriesTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var storiesTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        img.clipsToBounds = true
+        img.layer.cornerRadius = 10
+        self.clipsToBounds = true
+        self.layer.cornerRadius = 10
     }
-
 }

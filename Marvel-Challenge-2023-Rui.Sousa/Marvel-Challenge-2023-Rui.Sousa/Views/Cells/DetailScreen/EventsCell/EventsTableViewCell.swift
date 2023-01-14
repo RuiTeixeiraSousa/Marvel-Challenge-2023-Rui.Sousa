@@ -7,11 +7,18 @@
 
 import UIKit
 
-class EventsTableViewCell: UICollectionViewCell {
+class EventsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var eventsTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        img.clipsToBounds = true
+        img.layer.cornerRadius = 10
+        self.clipsToBounds = true
+        self.layer.cornerRadius = 10
     }
-
 }
+

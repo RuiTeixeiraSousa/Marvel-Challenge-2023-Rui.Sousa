@@ -7,11 +7,15 @@
 
 import UIKit
 
-class CharacterTitleCell: UICollectionViewCell {
-
+class CharacterTitleCell: UITableViewCell {
+    
+    @IBOutlet weak var CharacterTImg: UIImageView!
+    @IBOutlet weak var CharacterViewTitle: UIView!
+    @IBOutlet weak var CharacterTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        CharacterViewTitle.layer.cornerRadius = 15
+        CharacterViewTitle.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
-
 }

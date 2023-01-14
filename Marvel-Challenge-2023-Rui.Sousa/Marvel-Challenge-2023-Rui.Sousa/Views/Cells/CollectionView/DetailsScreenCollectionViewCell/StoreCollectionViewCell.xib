@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="storeCollectionViewCell" id="NL6-S3-pCA" customClass="StoreCollectionViewCell" customModule="marve_app_ruisousa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="125" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marvel_logo" translatesAutoresizingMaskIntoConstraints="NO" id="DVQ-cg-j1N">
+                        <rect key="frame" x="10" y="10" width="105" height="145"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="145" id="es4-3H-Mmy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CollectionViewCellTitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPL-Lq-FeX">
+                        <rect key="frame" x="10" y="160" width="105" height="40"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="zZd-up-Xyc"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NPL-Lq-FeX" secondAttribute="bottom" id="5EK-W8-NZJ"/>
+                <constraint firstItem="DVQ-cg-j1N" firstAttribute="top" secondItem="NL6-S3-pCA" secondAttribute="top" constant="10" id="5cW-q1-PCh"/>
+                <constraint firstItem="NPL-Lq-FeX" firstAttribute="leading" secondItem="NL6-S3-pCA" secondAttribute="leading" constant="10" id="8Ug-i6-LIf"/>
+                <constraint firstAttribute="trailing" secondItem="DVQ-cg-j1N" secondAttribute="trailing" constant="10" id="AhB-zE-saA"/>
+                <constraint firstItem="DVQ-cg-j1N" firstAttribute="leading" secondItem="NL6-S3-pCA" secondAttribute="leading" constant="10" id="MYm-xe-5EQ"/>
+                <constraint firstAttribute="trailing" secondItem="NPL-Lq-FeX" secondAttribute="trailing" constant="10" id="X83-dV-2ih"/>
+                <constraint firstAttribute="bottom" secondItem="NPL-Lq-FeX" secondAttribute="bottom" id="dD4-4P-f9U"/>
+                <constraint firstItem="NPL-Lq-FeX" firstAttribute="top" secondItem="DVQ-cg-j1N" secondAttribute="bottom" constant="5" id="mUL-84-JEW"/>
+            </constraints>
+            <size key="customSize" width="124" height="195"/>
+            <connections>
+                <outlet property="img" destination="DVQ-cg-j1N" id="g5S-b0-xFE"/>
+                <outlet property="movieTitle" destination="NPL-Lq-FeX" id="ZSi-XW-ZiJ"/>
+            </connections>
+            <point key="canvasLocation" x="-6.1068702290076331" y="35.211267605633807"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="marvel_logo" width="194" height="194"/>
+    </resources>
+</document>
