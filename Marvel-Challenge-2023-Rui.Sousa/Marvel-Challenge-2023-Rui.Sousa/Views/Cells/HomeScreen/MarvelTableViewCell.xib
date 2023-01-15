@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MarvelTableViewCell" rowHeight="185" id="tZA-eO-n4y" userLabel="MarvelTableViewCell" customClass="MarvelTableViewCell" customModule="marve_app_ruisousa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="205"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tZA-eO-n4y" id="vEU-1p-JS9">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="205"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paT-Lz-vTM">
+                        <rect key="frame" x="0.0" y="10" width="393" height="185"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Iron-Man-Movie" translatesAutoresizingMaskIntoConstraints="NO" id="jto-Nn-KoB">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="EqT-aS-Uut"/>
+                                    <constraint firstAttribute="height" constant="185" id="m7x-II-auv"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NvG-B3-aSs">
+                                <rect key="frame" x="0.0" y="135" width="393" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IRON MAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyx-Am-IdU">
+                                        <rect key="frame" x="5" y="14.999999999999998" width="383" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.27502888689999999" green="0.14152846599999999" blue="0.36721177510000003" alpha="0.95455112590000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dyx-Am-IdU" secondAttribute="trailing" constant="5" id="Bz7-jS-vnO"/>
+                                    <constraint firstAttribute="height" constant="50" id="WAZ-U1-o2N"/>
+                                    <constraint firstItem="dyx-Am-IdU" firstAttribute="centerY" secondItem="NvG-B3-aSs" secondAttribute="centerY" id="hiL-6m-bRn"/>
+                                    <constraint firstItem="dyx-Am-IdU" firstAttribute="leading" secondItem="NvG-B3-aSs" secondAttribute="leading" constant="5" id="ire-VZ-rp0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jto-Nn-KoB" secondAttribute="trailing" id="ATc-rA-4aq"/>
+                            <constraint firstAttribute="bottom" secondItem="jto-Nn-KoB" secondAttribute="bottom" id="BYA-mG-Lmi"/>
+                            <constraint firstAttribute="width" constant="393" id="L0P-mg-ZjU"/>
+                            <constraint firstItem="NvG-B3-aSs" firstAttribute="leading" secondItem="paT-Lz-vTM" secondAttribute="leading" id="Pz8-g8-dXa"/>
+                            <constraint firstItem="NvG-B3-aSs" firstAttribute="trailing" secondItem="jto-Nn-KoB" secondAttribute="trailing" id="RvS-vH-ABR"/>
+                            <constraint firstItem="jto-Nn-KoB" firstAttribute="leading" secondItem="paT-Lz-vTM" secondAttribute="leading" id="c5M-X9-dW0"/>
+                            <constraint firstItem="NvG-B3-aSs" firstAttribute="bottom" secondItem="jto-Nn-KoB" secondAttribute="bottom" id="peb-zJ-cyo"/>
+                            <constraint firstItem="jto-Nn-KoB" firstAttribute="top" secondItem="paT-Lz-vTM" secondAttribute="top" id="qpW-G5-EGZ"/>
+                            <constraint firstItem="NvG-B3-aSs" firstAttribute="leading" secondItem="jto-Nn-KoB" secondAttribute="leading" id="uyJ-EP-3TY"/>
+                            <constraint firstAttribute="height" constant="185" id="vdr-cU-8ly"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="paT-Lz-vTM" firstAttribute="top" secondItem="vEU-1p-JS9" secondAttribute="top" constant="10" id="BzJ-N9-BQI"/>
+                    <constraint firstItem="paT-Lz-vTM" firstAttribute="centerY" secondItem="vEU-1p-JS9" secondAttribute="centerY" id="Dwr-gC-dGD"/>
+                    <constraint firstAttribute="trailing" secondItem="paT-Lz-vTM" secondAttribute="trailing" id="WmC-j9-pjD"/>
+                    <constraint firstAttribute="bottom" secondItem="paT-Lz-vTM" secondAttribute="bottom" constant="10" id="bV0-2t-cht"/>
+                    <constraint firstItem="paT-Lz-vTM" firstAttribute="leading" secondItem="vEU-1p-JS9" secondAttribute="leading" id="nYJ-DL-HSR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cellImgView" destination="paT-Lz-vTM" id="IW8-n4-RXQ"/>
+                <outlet property="img" destination="jto-Nn-KoB" id="jH9-y7-EmQ"/>
+                <outlet property="movieTitle" destination="dyx-Am-IdU" id="cV0-iI-efn"/>
+                <outlet property="titleView" destination="NvG-B3-aSs" id="OcX-uz-0ir"/>
+            </connections>
+            <point key="canvasLocation" x="109.16030534351144" y="-225"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Iron-Man-Movie" width="1280" height="719"/>
+    </resources>
+</document>
