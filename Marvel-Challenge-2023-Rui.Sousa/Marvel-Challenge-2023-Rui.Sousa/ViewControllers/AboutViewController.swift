@@ -73,22 +73,22 @@ class AboutViewController: UITableViewController {
             return UITableViewCell()
         case 1:
             if indexPath.row == 0 {
-                guard let cell2 = tableView.dequeueReusableCell(withIdentifier: "AboutOverviewTableViewCell",for: indexPath) as? AboutOverviewTableViewCell else { return UITableViewCell() }
-                return cell2
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "AboutOverviewTableViewCell",for: indexPath) as? AboutOverviewTableViewCell else { return UITableViewCell() }
+                return cell
             } else {
                 print("Error")
             }
         case 2:
             if indexPath.row == 0 {
-                guard let cell2 = tableView.dequeueReusableCell(withIdentifier: "DescriptionTableViewCell",for: indexPath) as? DescriptionTableViewCell else { return UITableViewCell() }
-                return cell2
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "DescriptionTableViewCell",for: indexPath) as? DescriptionTableViewCell else { return UITableViewCell() }
+                return cell
             } else {
                 print("Error")
             }
         case 3:
             if indexPath.row == 0 {
-                guard let cell3 = tableView.dequeueReusableCell(withIdentifier: "TopSellingItemsTableViewCell",for: indexPath) as? TopSellingItemsTableViewCell else { return UITableViewCell() }
-                return cell3
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "TopSellingItemsTableViewCell",for: indexPath) as? TopSellingItemsTableViewCell else { return UITableViewCell() }
+                return cell
             } else {
                 print("Error")
             }

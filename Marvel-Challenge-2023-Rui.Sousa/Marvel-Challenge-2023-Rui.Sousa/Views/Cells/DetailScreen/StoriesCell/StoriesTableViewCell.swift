@@ -8,8 +8,6 @@
 
 import UIKit
 
-var characterStoriesDetails: Character!
-
 class StoriesTableViewCell: UITableViewCell {
     
     @IBOutlet weak var img: UIImageView!
