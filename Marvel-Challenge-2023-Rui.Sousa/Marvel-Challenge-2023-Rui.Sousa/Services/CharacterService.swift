@@ -23,8 +23,8 @@ class CharacterService {
     
     private static var commonQueryItems: [URLQueryItem] = {
         let timestamp = "\(Date().timeIntervalSince1970)"
-        let privateKey = "092ac9946b25add4a7d468068e8541f6f9b0be0e"
-        let apiKey = "f43d07f9042745026ecbd8d03073dda8"
+        let privateKey = "2821f23808b7f8751381b2acb3671890a90eddf0"
+        let apiKey = "197f354f1d837df1049fb5c06581c0b4"
         let hash = privateKey.MD5(string: "\(timestamp)\(privateKey)\(apiKey)")
         
         return [

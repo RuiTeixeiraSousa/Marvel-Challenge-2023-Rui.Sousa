@@ -11,8 +11,8 @@ class MarvelAPI {
     
     static let shared = MarvelAPI(
         baseURL: URL(string: "https://gateway.marvel.com:443")!,
-        privateKey: "092ac9946b25add4a7d468068e8541f6f9b0be0e",
-        apiKey: "f43d07f9042745026ecbd8d03073dda8"
+        privateKey: "2821f23808b7f8751381b2acb3671890a90eddf0",
+        apiKey: "197f354f1d837df1049fb5c06581c0b4"
         
     )
 
