@@ -7,8 +7,6 @@
 
 import UIKit
 
-var characterSeriesDetails: Character!
-
 class SeriesTableViewCell: UITableViewCell {
 
     @IBOutlet weak var img: UIImageView!

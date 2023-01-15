@@ -7,8 +7,6 @@
 
 import UIKit
 
-var characterEventsDetails: Character!
-
 class EventsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var img: UIImageView!

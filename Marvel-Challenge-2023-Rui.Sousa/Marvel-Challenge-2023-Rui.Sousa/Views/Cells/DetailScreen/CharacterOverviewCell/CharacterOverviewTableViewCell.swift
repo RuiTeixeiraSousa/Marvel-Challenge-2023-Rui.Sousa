@@ -7,8 +7,6 @@
 
 import UIKit
 
-import UIKit
-
 class CharacterOverviewTableViewCell: UITableViewCell {
     
     @IBOutlet weak var movieTitle: UILabel!

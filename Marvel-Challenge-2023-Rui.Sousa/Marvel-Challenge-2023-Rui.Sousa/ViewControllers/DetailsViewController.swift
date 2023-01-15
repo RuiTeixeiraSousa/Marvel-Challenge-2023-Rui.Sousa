@@ -89,7 +89,6 @@ class DetailsViewController: UITableViewController {
             return cell
         case .overview:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "CharacterOverviewTableViewCell",for: indexPath) as? CharacterOverviewTableViewCell else { return UITableViewCell() }
-            // configure cell with characterDetails
             return cell
         case .comics:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "ComicsTableViewCell",for: indexPath) as? ComicsTableViewCell else { return UITableViewCell() }
