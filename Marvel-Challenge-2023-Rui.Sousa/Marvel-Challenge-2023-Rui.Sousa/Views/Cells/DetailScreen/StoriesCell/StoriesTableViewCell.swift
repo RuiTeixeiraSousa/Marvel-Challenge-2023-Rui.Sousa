@@ -8,10 +8,12 @@
 
 import UIKit
 
+var characterStoriesDetails: Character!
+
 class StoriesTableViewCell: UITableViewCell {
     
     @IBOutlet weak var img: UIImageView!
-    @IBOutlet weak var storiesTitle: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

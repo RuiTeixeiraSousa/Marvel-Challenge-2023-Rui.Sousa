@@ -9,13 +9,13 @@ import UIKit
 
 class CharacterTitleCell: UITableViewCell {
     
-    @IBOutlet weak var CharacterTImg: UIImageView!
-    @IBOutlet weak var CharacterViewTitle: UIView!
-    @IBOutlet weak var CharacterTitle: UILabel!
+    @IBOutlet weak var characterTImg: UIImageView!
+    @IBOutlet weak var characterViewTitle: UIView!
+    @IBOutlet weak var characterTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        CharacterViewTitle.layer.cornerRadius = 15
-        CharacterViewTitle.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        characterViewTitle.layer.cornerRadius = 15
+        characterViewTitle.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
 }

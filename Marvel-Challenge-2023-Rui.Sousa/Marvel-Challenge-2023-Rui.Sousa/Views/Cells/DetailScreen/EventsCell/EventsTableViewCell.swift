@@ -7,10 +7,12 @@
 
 import UIKit
 
+var characterEventsDetails: Character!
+
 class EventsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var img: UIImageView!
-    @IBOutlet weak var eventsTitle: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

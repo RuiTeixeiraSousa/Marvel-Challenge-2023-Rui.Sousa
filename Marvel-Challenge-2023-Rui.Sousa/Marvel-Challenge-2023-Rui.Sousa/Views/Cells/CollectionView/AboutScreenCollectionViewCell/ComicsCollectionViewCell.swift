@@ -10,12 +10,12 @@ import UIKit
 
 class ComicsCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var img: UIImageView?
     @IBOutlet weak var comicsTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.img.layer.cornerRadius = 15
+        self.img?.layer.cornerRadius = 15
     }
 
 }

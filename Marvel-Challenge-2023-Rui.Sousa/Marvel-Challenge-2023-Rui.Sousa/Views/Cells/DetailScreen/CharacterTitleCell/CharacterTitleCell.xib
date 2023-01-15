@@ -8,7 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CharacterTitleCell" rowHeight="300" id="I2Z-0c-SKF" customClass="CharacterTitleCell" customModule="marve_app_ruisousa" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CharacterTitleCell" rowHeight="300" id="I2Z-0c-SKF" customClass="CharacterTitleCell" customModule="Marvel_Challenge_2023_Rui_Sousa" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I2Z-0c-SKF" id="C5i-pa-lWw">
@@ -65,9 +65,9 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="CharacterTImg" destination="kWs-5B-aV1" id="YJX-Kv-wv2"/>
-                <outlet property="CharacterTitle" destination="Ahk-z9-lVP" id="oVV-li-8r7"/>
-                <outlet property="CharacterViewTitle" destination="YVQ-cC-u51" id="xN1-xv-6CT"/>
+                <outlet property="characterTImg" destination="kWs-5B-aV1" id="ufI-SJ-uMX"/>
+                <outlet property="characterTitle" destination="Ahk-z9-lVP" id="2cs-CB-i80"/>
+                <outlet property="characterViewTitle" destination="YVQ-cC-u51" id="FjY-ZL-3lG"/>
             </connections>
             <point key="canvasLocation" x="397.70992366412213" y="235.21126760563382"/>
         </tableViewCell>
